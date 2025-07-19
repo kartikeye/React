@@ -1,11 +1,11 @@
 // let language = 'TypeScript';
 // let moon = 'Moon';
 
-function Header(props) {
-  console.log(props)
+function Header({name, age}) {
+  //console.log(props)
     return (
         <header>
-            <h1>Welcome {props.name} with age is {props.age}</h1>
+            <h1>Welcome {name} with age is {age}</h1>
         </header>
     );
   }
