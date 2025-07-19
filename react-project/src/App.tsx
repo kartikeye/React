@@ -1,8 +1,21 @@
-let language = 'TypeScript';
-let moon = 'Moon';
+// let language = 'TypeScript';
+// let moon = 'Moon';
+
+function Header() {
+    return (
+        <header>
+            <h1>Welcome to Header</h1>
+        </header>
+    );
+  }
 function App() {
     return (
-    <h1>Hello {language.toUpperCase()} and {moon}</h1>
+    <div>
+    <Header /> 
+    <main>
+        <h1>Welcome to React Project</h1>
+        </main>
+        </div>
     );
 }
 
